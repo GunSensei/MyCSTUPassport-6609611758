@@ -1,0 +1,71 @@
+@font-face {
+    font-family: Archive;
+    src: url(../Fonts/Archive-Regular.woff);
+}
+
+@font-face {
+    font-family: Doyser;
+    src: url(../Fonts/B2\ SIGN\ Big\ Match.woff);
+}
+
+body {
+    margin : 0;
+    background-color: #F7F9F9;
+}
+
+.Title {
+    background-color: #85C1E9;
+    text-align: center;
+    border : 3px solid #7F8C8D;
+    font-family: Archive;
+    color: white;
+    font-size: 50px;
+    margin: 0 auto;
+    padding: 10px;
+    position: static;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+}
+
+.sec1 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    height: auto;
+    margin-top: 0;
+}
+
+.Picture {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #EDBB99;
+}
+
+img {
+    border: 5px dashed #7F8C8D ;
+}
+
+.info {
+    display: block;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+}
+
+.Name h1{
+    font-size: 400%;
+    text-align: center;
+    font-family: Doyser;
+}
+
+p {
+    font-size: 200%;
+    margin-left: 30px;
+}
+
+li {
+    margin: 50px 50px;
+    font-size: 150%;
+}
