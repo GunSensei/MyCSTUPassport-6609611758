@@ -1,0 +1,33 @@
+@font-face {
+    font-family: Archive;
+    src: url(../Fonts/Archive-Regular.woff);
+}
+
+@font-face {
+    font-family: Doyser;
+    src: url(../Fonts/B2\ SIGN\ Big\ Match.woff);
+}
+
+body {
+    margin: 0;
+}
+
+div {
+    background-color: #85C1E9;
+    text-align: center;
+    border : 3px solid #7F8C8D;
+    font-family: Archive;
+    color: white;
+    font-size: 50px;
+    margin: 0 auto;
+    padding: 10px;
+    position: sticky;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+}
+
+img {
+    width: 100%;
+}
