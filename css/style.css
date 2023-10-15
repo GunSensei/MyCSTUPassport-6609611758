@@ -137,3 +137,62 @@ h1 {
     align-items: center;
     border: 1px dotted black;
 }
+
+.sec4 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    background-color: #F4F6F7;
+}
+
+.sec4 a{
+    font-family: Archive;
+    text-decoration: none;
+    color: #434A4F;
+    display: block;
+    font-size: 20px;
+    padding: 6px 8px 6px 16px;
+}
+
+.sec4 a:hover{
+    color: #C4CFD6;
+}
+
+
+@media only screen and (max-width:768px){
+    .sec1 {
+        background-color: #F4F6F7;
+        overflow: auto;
+        display: grid;
+        grid-template-columns: 100%;
+    }
+    .sec2{
+        display: grid;
+        grid-template-columns: 100%;
+        background-color: #F4F6F7;
+    }
+    .sec3{
+        display: grid;
+        grid-template-columns: 100%;
+    }
+}
+
+@media only screen and (max-width:600px){
+    .sidenav {
+        max-width: 110px;
+    }
+    .sec1 {
+        background-color: #F4F6F7;
+        overflow: auto;
+        display: grid;
+        grid-template-columns: 100%;
+    }
+    .sec2{
+        display: grid;
+        grid-template-columns: 100%;
+        background-color: #F4F6F7;
+    }
+    .sec3{
+        display: grid;
+        grid-template-columns: 100%;
+    }
+}
